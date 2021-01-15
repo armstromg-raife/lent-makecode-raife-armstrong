@@ -1,2 +1,7 @@
-scene.setBackgroundColor(0)
+scene.setBackgroundColor(7)
 effects.confetti.startScreenEffect()
+let myCorg = corgio.create(SpriteKind.Player)
+myCorg.updateSprite()
+myCorg.verticalMovement()
+myCorg.horizontalMovement()
+myCorg.follow()
