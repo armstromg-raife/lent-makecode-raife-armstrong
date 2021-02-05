@@ -25,7 +25,7 @@ forever(function () {
     if (info.score() == 1) {
         tiles.setTilemap(tilemap`level2`)
     } else if (info.score() == 2) {
-    	
+        tiles.setTilemap(tilemap`level6`)
     } else if (info.score() == 3) {
     	
     } else {
